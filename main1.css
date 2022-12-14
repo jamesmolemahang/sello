@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root{
+    --poppins-font: 'Poppins', sans-serif;
+    --dark-color: #0a0a0a;
+    --red-color: #f64445;
+    --light-color: #fff;
+    --grey-color: #505050;
+    --yellow-color: #f2c10e;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top:20px ;
+	padding-left: 10%;
+	padding-right: 10%;	 
+} 
+.all{
+    position: static;    
+    display: flex;
+    justify-content: space-between;
+    border:2px solid #9E9E9E;
+    border-top: none;
+    margin-top: 12px;
+    padding: 0px;
+    border:3px solid;
+    width: 100%;
+
+}
+
+#text  {
+    
+    margin-top: 100px;
+    margin-left: -33%;
+}
+#result
+{
+    
+    padding: 30px;
+    margin-bottom: 10px;
+    width: 500px;
+    margin-left: -36%;
+    height: 100%;
+    
+
+}
+#result img{
+    height: 300px;
+}
+
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 10px;
+    margin-top: -20px;
+
+
+}
+
+nav ul li button{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+    
+}
+nav ul li button:hover{
+	color:#ea1538  ;
+	transition: .3s;
+}
+span{
+    margin-left: 1px;
+	color: #ea1538;
+	
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#999;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(255, 51, 153,.05);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.image{
+    
+}
+.image img{
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 1.7rem;
+    min-height: 100vh;
+    background: var(--red-color);
+    background: -o-linear-gradient(281deg, white 0%, #F5F5F5 100%);
+    background: linear-gradient(169deg, white 0%, #F5F5F5 100%);
+    line-height: 1.6;
+    font-family: var(--poppins-font);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+}
+button, input{
+    font-family: inherit;
+    font-size: 1.8rem;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+}
+li{
+    list-style-type: none;
+}
+.Orphanages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+hr{
+    box-shadow:6px 6px 4px  gray; 
+}
+
+.Orphanages .box-container .box{
+    flex:1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:2px solid var(--pink);
+    position: relative;    
+    border: 1px solid white;
+    box-shadow: 2x 2px 2px white;
+    background-color: #616161;
+}
+
+.Orphanages .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 0rem;
+    overflow:hidden;
+}
+
+.Orphanages .box-container .box .image img{
+    height:25rem;
+}
+
+.Orphanages .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.Orphanages .box-container .box .image .icons{
+    position: absolute;
+    bottom:-7rem; left:0; right:0;
+    display: flex;
+}
+
+.Orphanages .box-container .box:hover .image .icons{
+    bottom:0;
+}
+
+.Orphanages .box-container .box .image .icons a{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width:50%;
+    background:var(--pink);
+    color:#fff;
+}
+
+.Orphanages .box-container .box .image .icons .cart-btn{
+    border-left: .1rem solid #fff7;
+    border-right: .1rem solid #fff7;
+    width:100%;
+}
+
+.Orphanages .box-container .box .image .icons a:hover{
+    background:#333;
+}
+
+.Orphanages .box-container .box .content{
+    padding:2rem;
+    text-align: center;
+}
+
+.Orphanages .box-container .box .content h3{
+    font-size: 2.5rem;
+    color:#333;
+}
+
+.Orphanages .box-container .box .content .loc{
+    font-size: 2.5rem;
+    color:var(--pink);
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.Orphanages .box-container .box .di{
+    position: absolute;
+    top:1rem; left:1rem;
+    padding:.7rem 1rem;
+    font-size: 2rem;
+    color:var(--pink);
+    background:rgba(255, 51, 153,.05);
+    z-index: 1;
+    border-radius: .5rem;
+}
+
+
+.Orphanages .box-container .box .content .loc span{
+    font-size: 1.5rem;
+    color:#999;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+}
+.inputContainer{
+    display:flex;
+    width:50%;
+    justify-content: space-evenly;
+}
+
+
+.main-wrapper{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.app{
+    background-color: #424242;
+    margin: 2rem;
+    padding: 5rem;
+    border-radius: 6px;
+    color: #fff;
+    -webkit-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.5);
+}
+.app-header{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nep5{
+    position: relative;
+    left: 500px;
+    margin-left: 500px;
+}
